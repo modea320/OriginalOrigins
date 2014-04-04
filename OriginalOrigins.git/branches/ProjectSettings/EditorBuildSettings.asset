@@ -20,11 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level6.unity
   - enabled: 1
-<<<<<<< HEAD
-=======
-    path: Assets/Scenes/LevelLab.unity
-  - enabled: 1
->>>>>>> 26491905437be147f32b0d4cdcd2c7d48ed3ae22
     path: Assets/Scenes/Level7.unity
   - enabled: 1
     path: Assets/Scenes/LevelLab.unity
