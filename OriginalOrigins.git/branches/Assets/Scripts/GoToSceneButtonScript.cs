@@ -22,7 +22,7 @@ public class GoToSceneButtonScript : MonoBehaviour {
             {
                 guiTexture.texture = button2;
 
-                Application.LoadLevel("Level1");
+                Application.LoadLevel("1 Intro Cut Scene");
               
             }
             else if (guiTexture.HitTest(touch.position) && touch.phase == TouchPhase.Ended)
