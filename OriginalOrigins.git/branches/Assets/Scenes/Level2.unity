@@ -1384,6 +1384,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 15903ab28dda3c446ad9f5b9500b62fa, type: 2}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15903ab28dda3c446ad9f5b9500b62fa, type: 2}
   m_RootGameObject: {fileID: 1246083371}
@@ -3557,7 +3561,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 6ba15af3ecbfab54ba699cd1b64a98a2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
