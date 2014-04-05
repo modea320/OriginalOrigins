@@ -329,6 +329,7 @@ GameObject:
   - 4: {fileID: 1723894846}
   - 131: {fileID: 1723894845}
   - 114: {fileID: 1723894844}
+  - 114: {fileID: 1723894847}
   m_Layer: 0
   m_Name: Screen Button
   m_TagString: Untagged
@@ -380,3 +381,16 @@ Transform:
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1723894847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1723894843}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb471d8b847a2f408965e832464ea15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collider: {fileID: 0}
+  level: 1 Intro Cut Scene
