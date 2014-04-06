@@ -1011,7 +1011,7 @@ Prefab:
     - target: {fileID: 13100000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: de1cf6df31dd7f24c8ba22220d4db52f, type: 3}
+      objectReference: {fileID: 2800000, guid: bb38358916d8498449b94c5b708bf10d, type: 3}
     - target: {fileID: 13100000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: m_PixelInset.y
       value: 60
@@ -1238,7 +1238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c7dbe074766d64385f2341400a6de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button1: {fileID: 2800000, guid: de1cf6df31dd7f24c8ba22220d4db52f, type: 3}
+  button1: {fileID: 2800000, guid: 3399c52cc0950f94fa48f0bb934e741c, type: 3}
   theObject: {fileID: 276769062}
   direction: -1
   speed: 4
@@ -1250,7 +1250,7 @@ GUITexture:
   m_PrefabInternal: {fileID: 1691121746}
   m_GameObject: {fileID: 534429082}
   m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: de1cf6df31dd7f24c8ba22220d4db52f, type: 3}
+  m_Texture: {fileID: 2800000, guid: 3399c52cc0950f94fa48f0bb934e741c, type: 3}
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
     serializedVersion: 2
@@ -1312,11 +1312,11 @@ Prefab:
     - target: {fileID: 11400000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: button1
       value: 
-      objectReference: {fileID: 2800000, guid: 5b857cafad066ab49907cedc6b7ac8b8, type: 3}
+      objectReference: {fileID: 2800000, guid: b75a1be6a04cc0946b7ccf36e2b53d3b, type: 3}
     - target: {fileID: 13100000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 5b857cafad066ab49907cedc6b7ac8b8, type: 3}
+      objectReference: {fileID: 2800000, guid: b75a1be6a04cc0946b7ccf36e2b53d3b, type: 3}
     - target: {fileID: 13100000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: m_PixelInset.y
       value: 60
@@ -1410,7 +1410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c7dbe074766d64385f2341400a6de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button1: {fileID: 2800000, guid: 5b857cafad066ab49907cedc6b7ac8b8, type: 3}
+  button1: {fileID: 2800000, guid: b75a1be6a04cc0946b7ccf36e2b53d3b, type: 3}
   theObject: {fileID: 276769062}
   direction: 1
   speed: 4
@@ -1422,7 +1422,7 @@ GUITexture:
   m_PrefabInternal: {fileID: 554058295}
   m_GameObject: {fileID: 583267713}
   m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: 5b857cafad066ab49907cedc6b7ac8b8, type: 3}
+  m_Texture: {fileID: 2800000, guid: b75a1be6a04cc0946b7ccf36e2b53d3b, type: 3}
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
     serializedVersion: 2
@@ -1525,7 +1525,7 @@ GUITexture:
   m_PrefabInternal: {fileID: 349730455}
   m_GameObject: {fileID: 630801177}
   m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: de1cf6df31dd7f24c8ba22220d4db52f, type: 3}
+  m_Texture: {fileID: 2800000, guid: bb38358916d8498449b94c5b708bf10d, type: 3}
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
     serializedVersion: 2
@@ -3133,11 +3133,11 @@ Prefab:
     - target: {fileID: 11400000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: button1
       value: 
-      objectReference: {fileID: 2800000, guid: de1cf6df31dd7f24c8ba22220d4db52f, type: 3}
+      objectReference: {fileID: 2800000, guid: 3399c52cc0950f94fa48f0bb934e741c, type: 3}
     - target: {fileID: 13100000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: de1cf6df31dd7f24c8ba22220d4db52f, type: 3}
+      objectReference: {fileID: 2800000, guid: 3399c52cc0950f94fa48f0bb934e741c, type: 3}
     - target: {fileID: 13100000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: m_PixelInset.y
       value: 60

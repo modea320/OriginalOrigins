@@ -4,7 +4,7 @@ using System.Collections;
 public class NextLevelScript : MonoBehaviour
 {
 
-    public Collider2D collider;
+    
     public string level;
 
     // Use this for initialization
@@ -19,6 +19,7 @@ public class NextLevelScript : MonoBehaviour
 
     }
 
+    // loads the level indicated by the public string level
     void OnTriggerEnter2D(Collider2D otherCollider)
     {
         Application.LoadLevel(level);
