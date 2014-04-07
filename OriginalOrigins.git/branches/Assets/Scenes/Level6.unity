@@ -443,6 +443,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+      propertyPath: level
+      value: Level7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
   m_RootGameObject: {fileID: 694158378}
@@ -2488,7 +2492,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb471d8b847a2f408965e832464ea15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  level: Level7
+=======
   level: 
+>>>>>>> 700bc0983277ac4ad36673c1551c654fd62ac47a
 --- !u!61 &694158381
 BoxCollider2D:
   m_ObjectHideFlags: 0

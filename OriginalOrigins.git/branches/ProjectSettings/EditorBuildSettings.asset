@@ -8,13 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/0TitleScreen.unity
   - enabled: 1
-    path: Assets/Scenes/CutScene1.unity
-  - enabled: 1
     path: Assets/Scenes/1 Intro Cut Scene.unity
   - enabled: 1
     path: Assets/Scenes/Level1.unity
   - enabled: 1
+    path: Assets/Scenes/2 Legs Cut Scene.unity
+  - enabled: 1
     path: Assets/Scenes/Level2.unity
+  - enabled: 1
+    path: Assets/Scenes/3 Arms Cut Scene.unity
   - enabled: 1
     path: Assets/Scenes/Level3.unity
   - enabled: 1
@@ -24,6 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level6.unity
   - enabled: 1
+    path: Assets/Scenes/4 Sewer Cut Scene.unity
+  - enabled: 1
     path: Assets/Scenes/Level7.unity
   - enabled: 1
-    path: Assets/Scenes/LevelLab.unity
+    path: Assets/Scenes/Level8.unity
+  - enabled: 1
+    path: Assets/Scenes/8 Ending Cut Scene.unity
