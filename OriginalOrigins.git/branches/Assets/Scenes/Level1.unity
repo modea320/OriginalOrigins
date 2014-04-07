@@ -1596,7 +1596,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
@@ -2746,7 +2746,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &630801178
 Transform:
   m_ObjectHideFlags: 0
@@ -2917,8 +2917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb471d8b847a2f408965e832464ea15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collider: {fileID: 694595562}
-  level: Level2
+  level: 2 Legs Cut Scene
 --- !u!61 &694595562
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3892,7 +3891,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: level
-      value: Level2
+      value: 2 Legs Cut Scene
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: m_IsActive
@@ -6930,7 +6929,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: level
-      value: Level2
+      value: 2 Legs Cut Scene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
@@ -7766,7 +7765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
   button2: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
-  level: Level2
+  level: 2 Legs Cut Scene
 --- !u!212 &2011757831
 SpriteRenderer:
   m_ObjectHideFlags: 0
