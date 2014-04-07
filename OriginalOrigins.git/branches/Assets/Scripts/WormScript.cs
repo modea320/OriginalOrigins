@@ -23,7 +23,7 @@ public class WormScript : MonoBehaviour {
     void Start()
     {
         theTransform = theWorm.transform;
-        thePosition = transform.position;
+        thePosition = theTransform.position;
         startHeight = thePosition.y;
 
         xPos = thePosition.x;        
