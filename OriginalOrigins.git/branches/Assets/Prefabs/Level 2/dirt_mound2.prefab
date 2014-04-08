@@ -24,8 +24,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.644146, y: -.923416376, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 75.9368134, y: .284203291, z: 0}
+  m_LocalScale: {x: 1.40345514, y: 1.40345633, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!68 &6800000
@@ -39,8 +39,12 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_Points:
   - {x: -5.45419312, y: -2.97322726}
-  - {x: -3.32137489, y: -1.78345466}
-  - {x: -.119743347, y: -.0571775436}
+  - {x: -4.13891697, y: -2.14112973}
+  - {x: -2.8915596, y: -1.74796307}
+  - {x: -2.11625552, y: -1.14780402}
+  - {x: -.888098598, y: -.415743411}
+  - {x: .747557759, y: -.0481528789}
+  - {x: 2.3681941, y: -.763629615}
   - {x: 4.99677277, y: -3.2591145}
 --- !u!212 &21200000
 SpriteRenderer:
@@ -61,7 +65,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: a13ba06e6d98b424d8655e177b702e15, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
