@@ -1146,7 +1146,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: level
-      value: Level1
+      value: Level3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: m_IsActive
@@ -1253,7 +1253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
   button2: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
-  level: Level1
+  level: Level3
 --- !u!212 &685394884
 SpriteRenderer:
   m_ObjectHideFlags: 0
