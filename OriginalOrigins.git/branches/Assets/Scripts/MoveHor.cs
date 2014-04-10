@@ -16,7 +16,8 @@ public class MoveHor : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		foreach (Touch touch in Input.touches) {
-			if(guiTexture.HitTest(touch.position) && touch.phase != TouchPhase.Ended)
+
+            if (guiTexture.HitTest(touch.position) && touch.phase != TouchPhase.Ended && Time.timeScale != 0)
 			{
 				//guiTexture.texture = buton1;
 				theObject.transform.Translate (Vector2.right * speed * direction * Time.smoothDeltaTime);
