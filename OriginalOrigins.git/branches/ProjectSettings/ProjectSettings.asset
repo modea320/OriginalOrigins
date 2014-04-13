@@ -106,7 +106,7 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-  AndroidKeystoreName: C:/Users/Owner/Documents/OriginalOrigins/OriginalOrigins.git/branches/Origin.keystore
+  AndroidKeystoreName: C:/Users/Katelyn/Documents/OriginalOrigins/OriginalOrigins.git/branches/Origin.keystore
   AndroidKeyaliasName: original origins
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
