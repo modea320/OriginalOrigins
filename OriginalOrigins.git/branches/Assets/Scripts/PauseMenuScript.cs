@@ -8,10 +8,13 @@ public class PauseMenuScript : MonoBehaviour {
     public GUITexture restartButton;    
     public GUITexture resumeButton;
     public GUITexture background;
+    public GUITexture pauseText;
 
 	// Use this for initialization
 	void Start () {
-	    
+
+        //homeButton.pixelInset = (Screen.width / 10) * 2;
+
 	}
 	
 	// Update is called once per frame
@@ -23,7 +26,9 @@ public class PauseMenuScript : MonoBehaviour {
             optionsButton.enabled = true;
             restartButton.enabled = true;
             resumeButton.enabled = true;
+            pauseText.enabled = true;
             background.enabled = true;
+            
 
             foreach (Touch touch in Input.touches)
             {
@@ -34,6 +39,7 @@ public class PauseMenuScript : MonoBehaviour {
                     restartButton.enabled = false;
                     resumeButton.enabled = false;
                     background.enabled = false;
+                    pauseText.enabled = false;
                     Time.timeScale = 1;
 
                     //temporarily the main menu
@@ -53,6 +59,7 @@ public class PauseMenuScript : MonoBehaviour {
                     restartButton.enabled = false;
                     resumeButton.enabled = false;
                     background.enabled = false;
+                    pauseText.enabled = false;
                     Time.timeScale = 1;
                 }
 
@@ -63,6 +70,7 @@ public class PauseMenuScript : MonoBehaviour {
                     restartButton.enabled = false;
                     resumeButton.enabled = false;
                     background.enabled = false;
+                    pauseText.enabled = false;
                     Time.timeScale = 1;
                 }
                 
@@ -76,6 +84,7 @@ public class PauseMenuScript : MonoBehaviour {
             restartButton.enabled = false;
             resumeButton.enabled = false;
             background.enabled = false;
+            pauseText.enabled = false;
         }
 	}
 }
