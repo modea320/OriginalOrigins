@@ -1325,7 +1325,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 380067595}
   m_LocalRotation: {x: 0, y: 0, z: -.761875689, w: .647723317}
-  m_LocalPosition: {x: 250.144135, y: -6.34185171, z: 0}
+  m_LocalPosition: {x: 250.144135, y: -5.99396563, z: 0}
   m_LocalScale: {x: 2.0833838, y: 2.08338475, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1404,8 +1404,8 @@ Transform:
   m_LocalPosition: {x: 15.6960545, y: -6.15298033, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 760542537}
   - {fileID: 81049454}
+  - {fileID: 651367049}
   m_Father: {fileID: 0}
 --- !u!1 &534429082
 GameObject:
@@ -1973,6 +1973,59 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 22aa0dd11901d9341960849f0fa802aa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &651367048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+  m_PrefabInternal: {fileID: 1754857291}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 651367049}
+  - 61: {fileID: 651367051}
+  - 114: {fileID: 651367050}
+  m_Layer: 0
+  m_Name: RightBounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &651367049
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+  m_PrefabInternal: {fileID: 1754857291}
+  m_GameObject: {fileID: 651367048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 243.009506, y: .847717285, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 488012204}
+--- !u!114 &651367050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: d81ed29d1a4372640872776ee477fac6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1754857291}
+  m_GameObject: {fileID: 651367048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb471d8b847a2f408965e832464ea15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: Death Cut Scene
+--- !u!61 &651367051
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100000, guid: d81ed29d1a4372640872776ee477fac6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1754857291}
+  m_GameObject: {fileID: 651367048}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Size: {x: 5, y: 40}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &658922013
 GameObject:
   m_ObjectHideFlags: 0
@@ -2183,7 +2236,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 760542535}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Size: {x: 1, y: 30}
   m_Center: {x: 0, y: 0}
 --- !u!4 &760542537
@@ -2209,6 +2262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: Level9
+
 --- !u!1001 &799609549
 Prefab:
   m_ObjectHideFlags: 0
@@ -3899,6 +3953,50 @@ Transform:
   - {fileID: 927573887}
   - {fileID: 1351141802}
   m_Father: {fileID: 1963033008}
+--- !u!1001 &1754857291
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 488012204}
+    m_Modifications:
+    - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 243.009506
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .847717285
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+      propertyPath: level
+      value: Death Cut Scene
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+  m_RootGameObject: {fileID: 651367048}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1769750981
 GameObject:
   m_ObjectHideFlags: 0
