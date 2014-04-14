@@ -10,8 +10,8 @@ PlayerSettings:
   targetGlesGraphics: 1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: Original Origins
-  productName: Origin
+  companyName: DefaultCompany
+  productName: branches
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -73,10 +73,10 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.Original.Origins
+  iPhoneBundleIdentifier: com.OriginalOrigins.origin
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
-  productGUID: a7fa4df2d5f506d4fa28a91c25927fcf
+  productGUID: 3ed814b826b2a554cb0f0f5874cc7af4
   iPhoneBundleVersion: 1.0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
@@ -106,15 +106,22 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-  AndroidKeystoreName: C:/Users/Damien/Documents/GitHub/OriginalOrigins/OriginalOrigins.git/branches/Origin.keystore
+  AndroidKeystoreName: C:/Users/Katelyn/Documents/OriginalOrigins/OriginalOrigins.git/branches/Origin.keystore
   AndroidKeyaliasName: original origins
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
+<<<<<<< HEAD
+    - m_Icon: {fileID: 0}
+=======
     - m_Icon: {fileID: 2800000, guid: 22f315a2aa950384bb9390fb6a19b135, type: 3}
+>>>>>>> origin/master
       m_Size: 128
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: Android
+    m_StaticBatching: 1
+    m_DynamicBatching: 1
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
   wiiRegion: 1
