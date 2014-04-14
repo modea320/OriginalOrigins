@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//test for editing 
+
 public class PlayerAnimScript : MonoBehaviour {
 
     private Animator animator;
