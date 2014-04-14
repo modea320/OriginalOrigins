@@ -4,7 +4,7 @@ using System.Collections;
 public class KillScript : MonoBehaviour {
 
     public Collider2D otherCollider;
-    public AudioClip lose_sound;
+    //public AudioClip lose_sound;
 
 	// Use this for initialization
 	void Start () {
@@ -21,8 +21,10 @@ public class KillScript : MonoBehaviour {
     // essentailly "respawning" the character
     void OnTriggerEnter2D(Collider2D otherCollider)
     {
-        audio.PlayOneShot(lose_sound);//sound effect
+        //audio.PlayOneShot(lose_sound, 1.0f);//sound effect
+        SoundManagerScript.Instance.MakeLoseSound();
         Application.LoadLevel(Application.loadedLevel);
+        
     }
 
 }
