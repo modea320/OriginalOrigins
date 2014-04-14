@@ -920,7 +920,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherCollider: {fileID: 0}
-  lose_sound: {fileID: 0}
 --- !u!60 &130499693
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2860,7 +2859,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherCollider: {fileID: 0}
-  lose_sound: {fileID: 0}
 --- !u!60 &404405588
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4060,7 +4058,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594d2c4e26b352c4182e9816c0eb2055, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump_sound: {fileID: 0}
   button1: {fileID: 2800000, guid: bb38358916d8498449b94c5b708bf10d, type: 3}
   theObject: {fileID: 310278971}
   direction: 1
@@ -6404,7 +6401,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherCollider: {fileID: 0}
-  lose_sound: {fileID: 0}
 --- !u!1001 &1041937635
 Prefab:
   m_ObjectHideFlags: 0
@@ -7672,7 +7668,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherCollider: {fileID: 0}
-  lose_sound: {fileID: 0}
 --- !u!60 &1374139261
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8162,7 +8157,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherCollider: {fileID: 0}
-  lose_sound: {fileID: 0}
 --- !u!60 &1450251583
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8794,7 +8788,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherCollider: {fileID: 0}
-  lose_sound: {fileID: 0}
 --- !u!60 &1557726162
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -9567,7 +9560,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   otherCollider: {fileID: 0}
-  lose_sound: {fileID: 0}
 --- !u!60 &1636174902
 PolygonCollider2D:
   m_ObjectHideFlags: 0
