@@ -2003,11 +2003,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 1e0e5e38af2309c48a3fded00734a328, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 96.0279617
+      value: 97.8006897
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1e0e5e38af2309c48a3fded00734a328, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.895431042
+      value: -.846188068
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1e0e5e38af2309c48a3fded00734a328, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3495,7 +3495,7 @@ Transform:
   m_PrefabInternal: {fileID: 683423768}
   m_GameObject: {fileID: 1108646318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 96.0279617, y: -.895431042, z: 0}
+  m_LocalPosition: {x: 97.8006897, y: -.846188068, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742887562}
@@ -3535,9 +3535,10 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_Points:
   - {x: -5.96879196, y: -3.08758235}
-  - {x: -3.59576797, y: -1.7442205}
-  - {x: -2.48954773, y: -.725756407}
-  - {x: -1.19975662, y: .924874067}
+  - {x: -4.58061981, y: -1.94119072}
+  - {x: -2.88349152, y: -1.0704546}
+  - {x: -1.93839264, y: .284720898}
+  - {x: -1.12094116, y: 1.11112487}
   - {x: .0126342773, y: 1.07796764}
   - {x: 1.63870621, y: .489685774}
   - {x: 2.61971664, y: -.979979277}

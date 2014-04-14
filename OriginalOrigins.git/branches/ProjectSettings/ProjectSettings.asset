@@ -25,7 +25,7 @@ PlayerSettings:
   m_MobileMTRendering: 0
   m_UseDX11: 0
   iosShowActivityIndicatorOnLoading: -1
-  androidShowActivityIndicatorOnLoading: 0
+  androidShowActivityIndicatorOnLoading: -1
   displayResolutionDialog: 1
   allowedAutorotateToPortrait: 0
   allowedAutorotateToPortraitUpsideDown: 0
@@ -73,12 +73,12 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.OriginalOrigins.Origin
+  iPhoneBundleIdentifier: com.Original.Origins
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
-  productGUID: 402224d30bbee8046ba4f830c4b93be1
-  iPhoneBundleVersion: 1.6
-  AndroidBundleVersionCode: 4
+  productGUID: a7fa4df2d5f506d4fa28a91c25927fcf
+  iPhoneBundleVersion: 1.0
+  AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -106,17 +106,13 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-<<<<<<< HEAD
-  AndroidKeystoreName: C:/Users/Katelyn/Documents/OriginalOrigins/OriginalOrigins.git/branches/Origin.keystore
-=======
   AndroidKeystoreName: C:/Users/Damien/Documents/GitHub/OriginalOrigins/OriginalOrigins.git/branches/Origin.keystore
->>>>>>> origin/master
   AndroidKeyaliasName: original origins
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 2800000, guid: c5d56730781a0d74b9bd487e48a9066b, type: 3}
+    - m_Icon: {fileID: 2800000, guid: 22f315a2aa950384bb9390fb6a19b135, type: 3}
       m_Size: 128
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Default
