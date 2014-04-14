@@ -2900,7 +2900,7 @@ AudioSource:
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: bf5a5711f27c86a49afe5bb0824d2e38, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: .0309999995
+  m_Volume: .0540000014
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7944,6 +7944,7 @@ Transform:
   - {fileID: 1656878691}
   - {fileID: 474392141}
   - {fileID: 875109281}
+  - {fileID: 1895643468}
   - {fileID: 346318341}
   - {fileID: 1665140663}
   - {fileID: 37705068}
@@ -7956,7 +7957,6 @@ Transform:
   - {fileID: 902696510}
   - {fileID: 1608662836}
   - {fileID: 494185093}
-  - {fileID: 1895643468}
   m_Father: {fileID: 1963033008}
 --- !u!1 &1688433880
 GameObject:
@@ -9902,16 +9902,16 @@ AudioSource:
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 0b480203ec8364f489182b44091d51ab, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: .419999987
+  m_Volume: .0649999976
   m_Pitch: 1
   Loop: 1
   Mute: 0
-  Priority: 128
+  Priority: 170
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 21.7226257
+  MaxDistance: 14.7298889
   Pan2D: 0
-  rolloffMode: 2
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0

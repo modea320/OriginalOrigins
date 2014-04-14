@@ -396,7 +396,7 @@ AudioSource:
   m_Pitch: .280000001
   Loop: 0
   Mute: 0
-  Priority: 128
+  Priority: 158
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -1671,7 +1671,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594d2c4e26b352c4182e9816c0eb2055, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump_sound: {fileID: 0}
   button1: {fileID: 2800000, guid: bb38358916d8498449b94c5b708bf10d, type: 3}
   theObject: {fileID: 276769062}
   direction: 1
@@ -3058,6 +3057,7 @@ GameObject:
   - 61: {fileID: 1720540315}
   - 82: {fileID: 1720540317}
   - 167: {fileID: 1720540316}
+  - 82: {fileID: 1720540318}
   m_Layer: 0
   m_Name: Moving Icon 7
   m_TagString: Untagged
@@ -3184,7 +3184,7 @@ AudioSource:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1720540309}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 0087e1c5d998919479ba237ab407a0ce, type: 3}
   m_PlayOnAwake: 1
@@ -3213,6 +3213,84 @@ AudioSource:
       value: 0
       inSlope: 0
       outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &1720540318
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1720540309}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: bf5a5711f27c86a49afe5bb0824d2e38, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .279000014
+  m_Pitch: 1.14999998
+  Loop: 1
+  Mute: 0
+  Priority: 22
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 22.5365524
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: .0605713874
+      value: 1
+      inSlope: -16.5160427
+      outSlope: -16.5160427
+      tangentMode: 0
+    - time: .121142775
+      value: .5
+      inSlope: -4.12901068
+      outSlope: -4.12901068
+      tangentMode: 0
+    - time: .24228555
+      value: .25
+      inSlope: -1.03225267
+      outSlope: -1.03225267
+      tangentMode: 0
+    - time: .484571099
+      value: .125
+      inSlope: -.258063167
+      outSlope: -.258063167
+      tangentMode: 0
+    - time: .969142199
+      value: .0625
+      inSlope: -.0645157918
+      outSlope: -.0645157918
+      tangentMode: 0
+    - time: .989316225
+      value: 0
+      inSlope: -.0605955683
+      outSlope: -.0605955683
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -3855,7 +3933,7 @@ AudioSource:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2002444021}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: bf5a5711f27c86a49afe5bb0824d2e38, type: 3}
   m_PlayOnAwake: 1
@@ -3866,24 +3944,44 @@ AudioSource:
   Priority: 0
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 16.5094452
+  MaxDistance: 13.330864
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
-    - time: 0
+    - time: .0605713874
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -16.5160427
+      outSlope: -16.5160427
+      tangentMode: 0
+    - time: .121142775
+      value: .5
+      inSlope: -4.12901068
+      outSlope: -4.12901068
+      tangentMode: 0
+    - time: .24228555
+      value: .25
+      inSlope: -1.03225267
+      outSlope: -1.03225267
+      tangentMode: 0
+    - time: .484571099
+      value: .125
+      inSlope: -.258063167
+      outSlope: -.258063167
+      tangentMode: 0
+    - time: .969142199
+      value: .0625
+      inSlope: -.0645157918
+      outSlope: -.0645157918
       tangentMode: 0
     - time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: -.0605955683
+      outSlope: -.0605955683
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
