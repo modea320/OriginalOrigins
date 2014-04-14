@@ -1868,7 +1868,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594d2c4e26b352c4182e9816c0eb2055, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump_sound: {fileID: 0}
   button1: {fileID: 2800000, guid: bb38358916d8498449b94c5b708bf10d, type: 3}
   theObject: {fileID: 892068191}
   direction: 1
@@ -4854,7 +4853,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: .118000001
   m_Pitch: .75999999
-  Loop: 0
+  Loop: 1
   Mute: 0
   Priority: 100
   DopplerLevel: 1
@@ -4912,7 +4911,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: .0350000001
   m_Pitch: .5
-  Loop: 0
+  Loop: 1
   Mute: 0
   Priority: 128
   DopplerLevel: 1

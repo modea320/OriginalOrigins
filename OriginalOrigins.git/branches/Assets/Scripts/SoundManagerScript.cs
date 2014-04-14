@@ -30,6 +30,8 @@ public class SoundManagerScript : MonoBehaviour {
     public void MakeSound(AudioClip theClip)
     {
         AudioSource.PlayClipAtPoint(theClip, transform.position);
+
+
     }
 
 
