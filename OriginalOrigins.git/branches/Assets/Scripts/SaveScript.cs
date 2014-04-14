@@ -12,9 +12,16 @@ public class SaveScript : MonoBehaviour {
         level = PlayerPrefs.GetInt("LastLevel");
         isLoaded = PlayerPrefs.GetInt("Loaded");
 
+
         if(isLoaded == 1)
         {
             Application.LoadLevel(level);
+            PlayerPrefs.SetInt("Loaded", 0);
+        }
+
+        if (isLoaded == 2)
+        {
+            Application.LoadLevel("0TitleScreen");
             PlayerPrefs.SetInt("Loaded", 0);
 
         }
@@ -34,15 +41,17 @@ public class SaveScript : MonoBehaviour {
         //Save(Application.loadedLevel);
         PlayerPrefs.SetInt("LastLevel", Application.loadedLevel);
 
-        //set to 1 if a scene is saved, then set this to zero upon resuming the application
-        PlayerPrefs.SetInt("Loaded", 1);
+        //set to 2 if a scene is saved, then set this to zero upon resuming the application
+        PlayerPrefs.SetInt("Loaded", 2);
     }
 
     void OnApplicationPause()
     {
         PlayerPrefs.SetInt("LastLevel", Application.loadedLevel);
 
-        //set to 1 if a scene is saved, then set this to zero upon resuming the application
+        // set to 1 if a scene is saved, then set this to zero upon resuming the application
+        // when the game is started again after being quit, the player goes to the main menu
+        // instead of the last level
         PlayerPrefs.SetInt("Loaded", 1);
 
     }
@@ -50,6 +59,11 @@ public class SaveScript : MonoBehaviour {
     void Save(int level)
     {
         PlayerPrefs.SetInt("LastLevel", level);
+    }
+
+    void OnLevelWasLoaded(int loaded)
+    {
+        PlayerPrefs.SetInt("LastLevel", loaded);
     }
 
     
