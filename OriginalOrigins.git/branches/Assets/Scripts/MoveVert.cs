@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class MoveVert : MonoBehaviour {
 
+    public AudioClip jump_sound;
 	public Texture2D button1;
 	public GameObject theObject;
 	public int direction;
@@ -23,6 +25,7 @@ public class MoveVert : MonoBehaviour {
 			    {
 				    //guiTexture.texture = buton1;
                     {
+                        audio.PlayOneShot(jump_sound); //added by Matt
                         theObject.transform.Translate(Vector2.up * speed * direction / divisor);
                     }
 			    }

@@ -2817,6 +2817,7 @@ GameObject:
   - 92: {fileID: 511844755}
   - 124: {fileID: 511844754}
   - 81: {fileID: 511844753}
+  - 82: {fileID: 511844758}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2889,6 +2890,64 @@ Transform:
   m_LocalScale: {x: 1.42857146, y: 1.42857146, z: 1}
   m_Children: []
   m_Father: {fileID: 1789816887}
+--- !u!82 &511844758
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 511844752}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: bf5a5711f27c86a49afe5bb0824d2e38, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .0309999995
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1001 &520981752
 Prefab:
   m_ObjectHideFlags: 0
@@ -3761,6 +3820,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 654434534}
   - 212: {fileID: 654434535}
+  - 82: {fileID: 654434536}
   m_Layer: 0
   m_Name: grass4
   m_TagString: Untagged
@@ -3775,7 +3835,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 654434533}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.4840584, y: -1.6309886, z: 0}
+  m_LocalPosition: {x: 47.7399826, y: -1.63098764, z: 0}
   m_LocalScale: {x: 5.26165771, y: 5.26165771, z: 1}
   m_Children: []
   m_Father: {fileID: 1742887562}
@@ -3802,6 +3862,64 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_Sprite: {fileID: 21300000, guid: 4df2eaf154f5b5c4a97a1ce9c8385a1b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!82 &654434536
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 654434533}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 0b480203ec8364f489182b44091d51ab, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1001 &661888819
 Prefab:
   m_ObjectHideFlags: 0
@@ -7826,7 +7944,6 @@ Transform:
   - {fileID: 1656878691}
   - {fileID: 474392141}
   - {fileID: 875109281}
-  - {fileID: 1895643468}
   - {fileID: 346318341}
   - {fileID: 1665140663}
   - {fileID: 37705068}
@@ -7839,6 +7956,7 @@ Transform:
   - {fileID: 902696510}
   - {fileID: 1608662836}
   - {fileID: 494185093}
+  - {fileID: 1895643468}
   m_Father: {fileID: 1963033008}
 --- !u!1 &1688433880
 GameObject:
@@ -9732,6 +9850,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1981223056}
   - 212: {fileID: 1981223055}
+  - 82: {fileID: 1981223057}
   m_Layer: 0
   m_Name: tree
   m_TagString: Untagged
@@ -9773,6 +9892,84 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 1744841218}
+--- !u!82 &1981223057
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1981223054}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 0b480203ec8364f489182b44091d51ab, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .419999987
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 21.7226257
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: .0597540215
+      value: 1
+      inSlope: -16.7419739
+      outSlope: -16.7419739
+      tangentMode: 0
+    - time: .119508043
+      value: .5
+      inSlope: -4.18549347
+      outSlope: -4.18549347
+      tangentMode: 0
+    - time: .239016086
+      value: .25
+      inSlope: -1.04637337
+      outSlope: -1.04637337
+      tangentMode: 0
+    - time: .478032172
+      value: .125
+      inSlope: -.261593342
+      outSlope: -.261593342
+      tangentMode: 0
+    - time: .956064343
+      value: .0625
+      inSlope: -.0653983355
+      outSlope: -.0653983355
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: -.0597778782
+      outSlope: -.0597778782
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &1989994824
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,6 +3,7 @@ using System.Collections;
 
 public class PauseMenuScript : MonoBehaviour {
 
+
     public GUITexture homeButton;
     public GUITexture optionsButton;
     public GUITexture restartButton;    
