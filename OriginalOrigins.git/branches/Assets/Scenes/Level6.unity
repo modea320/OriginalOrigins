@@ -1824,6 +1824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 594d2c4e26b352c4182e9816c0eb2055, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jump_sound: {fileID: 0}
   button1: {fileID: 2800000, guid: bb38358916d8498449b94c5b708bf10d, type: 3}
   theObject: {fileID: 1977937498}
   direction: 1
@@ -2453,6 +2454,7 @@ GameObject:
   - 92: {fileID: 831523493}
   - 124: {fileID: 831523492}
   - 81: {fileID: 831523491}
+  - 82: {fileID: 831523496}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2525,6 +2527,64 @@ Transform:
   m_LocalScale: {x: 1.42857146, y: 1.42857146, z: 1}
   m_Children: []
   m_Father: {fileID: 1977937499}
+--- !u!82 &831523496
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 831523490}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: d67a7f78816efe5428b609136e7b6032, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: .209999993
+  m_Pitch: .569999993
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1001 &879610414
 Prefab:
   m_ObjectHideFlags: 0
