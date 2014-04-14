@@ -106,13 +106,21 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
+<<<<<<< HEAD
   AndroidKeystoreName: 
+=======
+<<<<<<< HEAD
+  AndroidKeystoreName: C:/Users/Katelyn/Documents/OriginalOrigins/OriginalOrigins.git/branches/Origin.keystore
+=======
+  AndroidKeystoreName: C:/Users/Damien/Documents/GitHub/OriginalOrigins/OriginalOrigins.git/branches/Origin.keystore
+>>>>>>> origin/master
+>>>>>>> 4af958063ff6eba5ceef388c48e73c4fa99d41ed
   AndroidKeyaliasName: original origins
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 2800000, guid: ef29fe705f689d14b9dc5fab86a07437, type: 3}
+    - m_Icon: {fileID: 2800000, guid: c5d56730781a0d74b9bd487e48a9066b, type: 3}
       m_Size: 128
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Default
