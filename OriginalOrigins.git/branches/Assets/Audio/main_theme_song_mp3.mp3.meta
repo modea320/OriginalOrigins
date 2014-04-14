@@ -1,15 +1,11 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: bf5a5711f27c86a49afe5bb0824d2e38
-=======
-guid: 42d05b88bb77b5845a192a868ac31618
->>>>>>> damien
 AudioImporter:
   serializedVersion: 4
   format: 0
-  quality: -1
+  quality: .5
   stream: 1
-  3D: 1
+  3D: 0
   forceToMono: 0
   useHardware: 0
   loopable: 0
