@@ -3,7 +3,7 @@ using System.Collections;
 
 public class KillScript : MonoBehaviour {
 
-    public Collider2D otherCollider;
+    //public Collider2D otherCollider;
     //public AudioClip lose_sound;
 
 	// Use this for initialization
