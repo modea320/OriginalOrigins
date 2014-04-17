@@ -489,7 +489,7 @@ AudioSource:
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: bf5a5711f27c86a49afe5bb0824d2e38, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: .230000004
   m_Pitch: .409999996
   Loop: 0
   Mute: 0
@@ -1338,6 +1338,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 81049454}
+  - {fileID: 1836558201}
   m_Father: {fileID: 0}
 --- !u!1 &528115347
 GameObject:
@@ -2431,15 +2432,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 488012204}
     m_Modifications:
     - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -18.8620987
+      value: -34.5581512
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: .686471701
+      value: 6.83945179
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2463,7 +2464,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: level
-      value: 0TitleScreen
+      value: Credits
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
@@ -3695,7 +3696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb471d8b847a2f408965e832464ea15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0TitleScreen
+  level: Credits
 --- !u!61 &1836558200
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3715,10 +3716,10 @@ Transform:
   m_PrefabInternal: {fileID: 1136008547}
   m_GameObject: {fileID: 1836558198}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.8620987, y: .686471701, z: 0}
+  m_LocalPosition: {x: -34.5581512, y: 6.83945179, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 488012204}
 --- !u!1001 &1882309967
 Prefab:
   m_ObjectHideFlags: 0
