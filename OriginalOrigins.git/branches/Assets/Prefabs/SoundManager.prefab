@@ -38,7 +38,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9626b7bbf4a6cac4a99223ce569e7723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump_sound: {fileID: 8300000, guid: 293b78f52d8381940868e676bab66e8e, type: 3}
+  jump_sound: {fileID: 0}
   lose_sound: {fileID: 8300000, guid: eb26054f989608b49b864bb19fd1b191, type: 3}
 --- !u!1001 &100100000
 Prefab:
