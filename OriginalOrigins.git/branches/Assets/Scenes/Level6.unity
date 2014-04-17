@@ -538,7 +538,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: level
-      value: Level7
+      value: Parachute Cut Scene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
@@ -2589,7 +2589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb471d8b847a2f408965e832464ea15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: Level7
+  level: Parachute Cut Scene
 --- !u!61 &694158381
 BoxCollider2D:
   m_ObjectHideFlags: 0

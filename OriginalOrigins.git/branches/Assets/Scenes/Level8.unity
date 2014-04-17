@@ -2429,7 +2429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb471d8b847a2f408965e832464ea15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: Level9
+  level: Death Cut Scene
 --- !u!1001 &799609549
 Prefab:
   m_ObjectHideFlags: 0
