@@ -4478,7 +4478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb471d8b847a2f408965e832464ea15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: Meet Ahh Cut Scene
+  level: Level5
 --- !u!61 &723863656
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5756,7 +5756,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: m_Name
-      value: Next Level Button Level 2
+      value: Next Level Button
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: level
@@ -5764,7 +5764,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
@@ -6796,7 +6796,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: level
-      value: Meet Ahh Cut Scene
+      value: Level5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: m_LocalScale.x
@@ -11867,12 +11867,12 @@ GameObject:
   - 212: {fileID: 2011757831}
   - 114: {fileID: 2011757830}
   m_Layer: 0
-  m_Name: Next Level Button Level 2
+  m_Name: Next Level Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2011757830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11886,7 +11886,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
-  button2: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
   level: Level5
 --- !u!212 &2011757831
 SpriteRenderer:
