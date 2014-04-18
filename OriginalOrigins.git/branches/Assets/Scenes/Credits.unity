@@ -1535,7 +1535,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: level
-      value: Level3
+      value: 0TitleScreen
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: m_IsActive
@@ -1718,8 +1718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
-  button2: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
-  level: Level3
+  level: 0TitleScreen
 --- !u!212 &685394884
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2417,7 +2416,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: m_Name
-      value: endScene
+      value: endSceneBounds
       objectReference: {fileID: 0}
     - target: {fileID: 6100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: m_Size.y
@@ -3660,7 +3659,7 @@ GameObject:
   - 61: {fileID: 1836558200}
   - 114: {fileID: 1836558199}
   m_Layer: 0
-  m_Name: endScene
+  m_Name: endSceneBounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

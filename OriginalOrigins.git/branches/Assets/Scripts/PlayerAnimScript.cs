@@ -7,6 +7,8 @@ public class PlayerAnimScript : MonoBehaviour {
     public GUITexture rightButton;
     public GUITexture leftButton;
 
+    
+
 	// Use this for initialization
 	void Start () {
 

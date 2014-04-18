@@ -3103,7 +3103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: 3399c52cc0950f94fa48f0bb934e741c, type: 3}
-  theObject: {fileID: 0}
+  theObject: {fileID: 519185248}
   direction: -1
   speed: 10
 --- !u!131 &534429085
@@ -3217,7 +3217,7 @@ Prefab:
     - target: {fileID: 11400000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: theObject
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 519185248}
     - target: {fileID: 100000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: m_Name
       value: Right Button
@@ -3385,7 +3385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: b75a1be6a04cc0946b7ccf36e2b53d3b, type: 3}
-  theObject: {fileID: 0}
+  theObject: {fileID: 519185248}
   direction: 1
   speed: 10
 --- !u!131 &583267715
@@ -5384,7 +5384,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
@@ -8590,7 +8590,7 @@ Prefab:
     - target: {fileID: 11400000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: theObject
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 519185248}
     - target: {fileID: 11400000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: button1
       value: 
@@ -10563,7 +10563,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2011757830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10577,7 +10577,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
-  button2: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
   level: 2 Legs Cut Scene
 --- !u!212 &2011757831
 SpriteRenderer:

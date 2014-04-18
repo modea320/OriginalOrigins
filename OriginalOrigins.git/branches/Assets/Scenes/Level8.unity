@@ -2219,7 +2219,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: level
-      value: Level9
+      value: Death Cut Scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
@@ -2430,7 +2434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb471d8b847a2f408965e832464ea15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: Level9
+  level: Death Cut Scene
 --- !u!61 &651367051
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2557,7 +2561,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &685394883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2571,8 +2575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
-  button2: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
-  level: Level9
+  level: Death Cut Scene
 --- !u!212 &685394884
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2684,7 +2687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &760542536
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4790,7 +4793,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: level
-      value: Level9
+      value: Death Cut Scene
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}

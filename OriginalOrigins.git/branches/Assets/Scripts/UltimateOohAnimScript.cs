@@ -14,6 +14,7 @@ public class UltimateOohAnimScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        
         foreach (Touch touch in Input.touches)
         {
             //for right button press

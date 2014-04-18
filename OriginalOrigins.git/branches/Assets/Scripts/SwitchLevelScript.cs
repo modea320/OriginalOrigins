@@ -4,7 +4,7 @@ using System.Collections;
 public class SwitchLevelScript : MonoBehaviour {
 
     public Texture2D button1;
-    public Texture2D button2;
+    //public Texture2D button2;
     public string level;
     
     
@@ -19,18 +19,13 @@ public class SwitchLevelScript : MonoBehaviour {
 	void Update () {
         foreach (Touch touch in Input.touches)
         {
-            if (guiTexture.HitTest(touch.position) && touch.phase != TouchPhase.Ended)
+            if (guiTexture.HitTest(touch.position) && touch.phase == TouchPhase.Began)
             {
-                guiTexture.texture = button2;
-                //playerHealth = 1;
+                //guiTexture.texture = button2;
                 Application.LoadLevel(level);
               
             }
-            else if (guiTexture.HitTest(touch.position) && touch.phase == TouchPhase.Ended)
-            {
-                guiTexture.texture = button1;
-                
-            }
+            
         }
 	
 	}
