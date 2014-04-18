@@ -4392,6 +4392,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 797249995}
   - 114: {fileID: 797249994}
+  - 114: {fileID: 797249996}
   m_Layer: 0
   m_Name: Bird Spawner
   m_TagString: Untagged
@@ -4427,6 +4428,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &797249996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 797249993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33ca346f14c3f544a97d3c512ea04fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 11
 --- !u!1 &801790671
 GameObject:
   m_ObjectHideFlags: 0
@@ -6294,6 +6307,7 @@ GameObject:
   - 50: {fileID: 1313052915}
   - 114: {fileID: 1313052917}
   - 82: {fileID: 1313052918}
+  - 114: {fileID: 1313052919}
   m_Layer: 0
   m_Name: swooping bird
   m_TagString: Untagged
@@ -6584,6 +6598,18 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &1313052919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1313052911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33ca346f14c3f544a97d3c512ea04fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 5
 --- !u!1 &1313673320
 GameObject:
   m_ObjectHideFlags: 0
