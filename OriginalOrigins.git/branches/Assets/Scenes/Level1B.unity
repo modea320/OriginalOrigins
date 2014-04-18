@@ -2906,8 +2906,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2697e9fb5c81c1c47b04ecd8941ba650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rightButton: {fileID: 0}
-  leftButton: {fileID: 0}
+  rightButton: {fileID: 583267715}
+  leftButton: {fileID: 534429085}
 --- !u!95 &519185252
 Animator:
   serializedVersion: 2
@@ -7342,6 +7342,14 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: bb0264dc7455950449e1c58770916819, type: 2}
+      propertyPath: rightButton
+      value: 
+      objectReference: {fileID: 583267715}
+    - target: {fileID: 11400000, guid: bb0264dc7455950449e1c58770916819, type: 2}
+      propertyPath: leftButton
+      value: 
+      objectReference: {fileID: 534429085}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb0264dc7455950449e1c58770916819, type: 2}
   m_RootGameObject: {fileID: 519185248}

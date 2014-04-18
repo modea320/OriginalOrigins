@@ -2756,7 +2756,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: 8f5296feb6a5a9249b5a0511b35fd0e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6feff154d3ad14a419a61fb30fe5764b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &772802570
 Transform:
@@ -4825,7 +4825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9626b7bbf4a6cac4a99223ce569e7723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump_sound: {fileID: 8300000, guid: 293b78f52d8381940868e676bab66e8e, type: 3}
+  jump_sound: {fileID: 0}
   lose_sound: {fileID: 8300000, guid: eb26054f989608b49b864bb19fd1b191, type: 3}
 --- !u!4 &1756762178
 Transform:
