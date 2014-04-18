@@ -677,7 +677,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
-  button2: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
   level: 8 Ending Cut Scene
 --- !u!212 &166468644
 SpriteRenderer:
