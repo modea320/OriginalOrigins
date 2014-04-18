@@ -109,6 +109,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f96e80328b2790b48b8184e517f3d0cf, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f96e80328b2790b48b8184e517f3d0cf, type: 2}
   m_RootGameObject: {fileID: 676980800}
@@ -203,7 +207,7 @@ GUITexture:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 160808732}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Texture: {fileID: 2800000, guid: 502a8922ae987824bb43c6493877be19, type: 3}
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
@@ -314,6 +318,8 @@ MonoBehaviour:
   newGameButton: {fileID: 1818642340}
   resumeGameButton: {fileID: 516836822}
   optionsButton: {fileID: 160808734}
+  newTexture: {fileID: 2800000, guid: e6444720609e7d348a2e96863bddfc7a, type: 3}
+  resumeTexture: {fileID: 2800000, guid: 610d2e8245a80334389a5988383bfe13, type: 3}
   newLevel: 1 Intro Cut Scene
 --- !u!1 &516836820
 GameObject:
@@ -338,7 +344,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 516836820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .420477957, y: .456655264, z: 0}
+  m_LocalPosition: {x: .420477957, y: .19627738, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 388994697}
@@ -376,7 +382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &676980801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -883,7 +889,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1818642338}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .431733549, y: .289312959, z: 0}
+  m_LocalPosition: {x: .431733549, y: .410308719, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 388994697}
