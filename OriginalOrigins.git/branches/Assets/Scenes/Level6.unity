@@ -540,6 +540,10 @@ Prefab:
       propertyPath: level
       value: Parachute Cut Scene
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
   m_RootGameObject: {fileID: 694158378}
@@ -2234,6 +2238,14 @@ Prefab:
       propertyPath: level
       value: Level7
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
   m_RootGameObject: {fileID: 685394882}
@@ -2361,13 +2373,14 @@ GameObject:
   - 131: {fileID: 685394885}
   - 212: {fileID: 685394884}
   - 114: {fileID: 685394883}
+  - 114: {fileID: 685394887}
   m_Layer: 0
   m_Name: Next Level Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &685394883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2375,13 +2388,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 600270760}
   m_GameObject: {fileID: 685394882}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41cd3d5c614a9be49b83e16d6e1535f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
-  button2: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
   level: Level7
 --- !u!212 &685394884
 SpriteRenderer:
@@ -2438,6 +2450,19 @@ Transform:
   m_LocalScale: {x: .200000003, y: .200000003, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &685394887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 685394882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b282ff28d7d47e049a2b9d5df05b571d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button1: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
+  level: 11
 --- !u!1 &691882235
 GameObject:
   m_ObjectHideFlags: 0
@@ -2559,6 +2584,7 @@ GameObject:
   - 4: {fileID: 694158379}
   - 61: {fileID: 694158381}
   - 114: {fileID: 694158380}
+  - 114: {fileID: 694158382}
   m_Layer: 0
   m_Name: RightBounds
   m_TagString: Untagged
@@ -2584,7 +2610,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 149618589}
   m_GameObject: {fileID: 694158378}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1eb471d8b847a2f408965e832464ea15, type: 3}
   m_Name: 
@@ -2602,6 +2628,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_Size: {x: 5, y: 40}
   m_Center: {x: 0, y: 0}
+--- !u!114 &694158382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 694158378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d928f80a81ce214884af14a1eb70445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 11
 --- !u!1 &735023682
 GameObject:
   m_ObjectHideFlags: 0
