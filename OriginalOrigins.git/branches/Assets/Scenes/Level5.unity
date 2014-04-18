@@ -1251,7 +1251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9626b7bbf4a6cac4a99223ce569e7723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump_sound: {fileID: 8300000, guid: 293b78f52d8381940868e676bab66e8e, type: 3}
+  jump_sound: {fileID: 0}
   lose_sound: {fileID: 8300000, guid: eb26054f989608b49b864bb19fd1b191, type: 3}
 --- !u!4 &513842714
 Transform:
@@ -1305,7 +1305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: 3399c52cc0950f94fa48f0bb934e741c, type: 3}
-  theObject: {fileID: 663838133}
+  theObject: {fileID: 192299978}
   direction: -1
   speed: 10
 --- !u!131 &534429085
@@ -1366,7 +1366,7 @@ Prefab:
     - target: {fileID: 11400000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: theObject
       value: 
-      objectReference: {fileID: 663838133}
+      objectReference: {fileID: 192299978}
     - target: {fileID: 100000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: m_Name
       value: Right Button
@@ -1524,7 +1524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: b75a1be6a04cc0946b7ccf36e2b53d3b, type: 3}
-  theObject: {fileID: 663838133}
+  theObject: {fileID: 192299978}
   direction: 1
   speed: 10
 --- !u!131 &583267715
@@ -1596,6 +1596,14 @@ Prefab:
     - target: {fileID: 11400000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: level
       value: Level6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
@@ -1864,9 +1872,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: bb38358916d8498449b94c5b708bf10d, type: 3}
-  theObject: {fileID: 663838133}
+  theObject: {fileID: 192299978}
   direction: 1
-  speed: 10
+  speed: 1
   divisor: 5
 --- !u!1001 &652143919
 Prefab:
@@ -2017,6 +2025,7 @@ GameObject:
   - 131: {fileID: 685394885}
   - 212: {fileID: 685394884}
   - 114: {fileID: 685394883}
+  - 114: {fileID: 685394887}
   m_Layer: 0
   m_Name: Next Level Button
   m_TagString: Untagged
@@ -2031,13 +2040,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 600270760}
   m_GameObject: {fileID: 685394882}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41cd3d5c614a9be49b83e16d6e1535f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
-  button2: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
   level: Level6
 --- !u!212 &685394884
 SpriteRenderer:
@@ -2094,6 +2102,19 @@ Transform:
   m_LocalScale: {x: .200000003, y: .200000003, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &685394887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 685394882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b282ff28d7d47e049a2b9d5df05b571d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button1: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
+  level: 9
 --- !u!1 &699330227
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,6 +2307,7 @@ GameObject:
   - 4: {fileID: 795266252}
   - 61: {fileID: 795266251}
   - 114: {fileID: 795266253}
+  - 114: {fileID: 795266254}
   m_Layer: 0
   m_Name: RightBounds
   m_TagString: Untagged
@@ -2314,8 +2336,20 @@ Transform:
   m_LocalPosition: {x: 59.5533066, y: 3.49622488, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1903085676}
 --- !u!114 &795266253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 795266250}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb471d8b847a2f408965e832464ea15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: Level6
+--- !u!114 &795266254
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -2323,10 +2357,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 795266250}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1eb471d8b847a2f408965e832464ea15, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d928f80a81ce214884af14a1eb70445, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: Level6
+  level: 9
 --- !u!1001 &808243253
 Prefab:
   m_ObjectHideFlags: 0
@@ -2405,7 +2439,7 @@ Prefab:
     - target: {fileID: 11400000, guid: 73cd2d21f3c4bcc4d84e35d565875e92, type: 2}
       propertyPath: master
       value: 
-      objectReference: {fileID: 663838133}
+      objectReference: {fileID: 192299978}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 73cd2d21f3c4bcc4d84e35d565875e92, type: 2}
   m_RootGameObject: {fileID: 1103971073}
@@ -2946,7 +2980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d518783198fc86041bca8dfd320a4592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  master: {fileID: 663838133}
+  master: {fileID: 192299978}
   follower: {fileID: 1103971073}
   delay: .5
   threshold: .0299999993
@@ -3738,7 +3772,7 @@ Prefab:
     - target: {fileID: 11400000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: theObject
       value: 
-      objectReference: {fileID: 663838133}
+      objectReference: {fileID: 192299978}
     - target: {fileID: 11400000, guid: 5e51cba601c89e048b4e285c39963a71, type: 2}
       propertyPath: button1
       value: 
@@ -4173,6 +4207,7 @@ Transform:
   m_Children:
   - {fileID: 534429083}
   - {fileID: 583267716}
+  - {fileID: 795266252}
   - {fileID: 630801178}
   m_Father: {fileID: 0}
 --- !u!1 &1963033007
