@@ -7,8 +7,8 @@ public class WeaponScript : MonoBehaviour
     
     /// Projectile prefab for shooting    
     public Transform shotPrefab;
-
     public GUITexture shotButton;
+    
 
     
     /// Cooldown in seconds between two shots   
@@ -21,10 +21,15 @@ public class WeaponScript : MonoBehaviour
     void Start()
     {
         shootCooldown = 0f;
+        
+        
+
     }
 
     void Update()
     {
+        
+
         if (shootCooldown > 0)
         {
             shootCooldown -= Time.deltaTime;
@@ -42,7 +47,17 @@ public class WeaponScript : MonoBehaviour
                     var shotTransform = Instantiate(shotPrefab) as Transform;
 
                     // Assign position
-                    shotTransform.position = transform.position;
+                    //shotTransform.position = transform.position;
+                    if(PlayerPrefs.GetInt("FacingRight") == 1)
+                    {
+                        shotTransform.position = new Vector3(transform.position.x + 1, transform.position.y + 1, transform.position.z);
+                    }
+                    else if (PlayerPrefs.GetInt("FacingRight") == 0)
+                    {
+                        shotTransform.position = new Vector3(transform.position.x - 1, transform.position.y + 1, transform.position.z);
+                        //shotTransform.Rotate(Vector3.up, Mathf.PI);
+                    }
+                    
 
                     /*
                     // The is enemy property
