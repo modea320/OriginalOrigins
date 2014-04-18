@@ -466,7 +466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9626b7bbf4a6cac4a99223ce569e7723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump_sound: {fileID: 8300000, guid: 293b78f52d8381940868e676bab66e8e, type: 3}
+  jump_sound: {fileID: 0}
   lose_sound: {fileID: 8300000, guid: eb26054f989608b49b864bb19fd1b191, type: 3}
 --- !u!4 &93472201
 Transform:
@@ -2429,7 +2429,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &685394883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3851,7 +3851,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 9.05699921
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4157,6 +4157,10 @@ Prefab:
     - target: {fileID: 5000000, guid: bb0264dc7455950449e1c58770916819, type: 2}
       propertyPath: m_FixedAngle
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: bb0264dc7455950449e1c58770916819, type: 2}
+      propertyPath: orthographic size
+      value: 9.05699921
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb0264dc7455950449e1c58770916819, type: 2}
