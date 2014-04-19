@@ -468,6 +468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jump_sound: {fileID: 0}
   lose_sound: {fileID: 8300000, guid: eb26054f989608b49b864bb19fd1b191, type: 3}
+  theCamera: {fileID: 1228767159}
 --- !u!4 &93472201
 Transform:
   m_ObjectHideFlags: 0
@@ -2433,7 +2434,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &685394883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2447,7 +2448,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button1: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
-  button2: {fileID: 2800000, guid: e4ee81e97cec91e4bbb8bc5ff1232fb3, type: 3}
   level: 4 Sewer Cut Scene
 --- !u!212 &685394884
 SpriteRenderer:
@@ -6718,6 +6718,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: c12585f1267e4d2488809825c6d91af5, type: 2}
+      propertyPath: theCamera
+      value: 
+      objectReference: {fileID: 1228767159}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c12585f1267e4d2488809825c6d91af5, type: 2}
   m_RootGameObject: {fileID: 93472199}

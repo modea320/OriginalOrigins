@@ -7,6 +7,7 @@ public class SoundManagerScript : MonoBehaviour {
 
     public AudioClip jump_sound;
     public AudioClip lose_sound;
+    public Camera theCamera;
 
     void Awake()
     {
@@ -29,7 +30,10 @@ public class SoundManagerScript : MonoBehaviour {
 
     public void MakeSound(AudioClip theClip)
     {
-        AudioSource.PlayClipAtPoint(theClip, transform.position);
+        if (PlayerPrefs.GetInt("SFX") == 1)
+        {
+            AudioSource.PlayClipAtPoint(theClip, transform.position);
+        }
     }
 
 
@@ -40,6 +44,34 @@ public class SoundManagerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
+        //print(PlayerPrefs.GetInt("BGM"));
+
+	    if(PlayerPrefs.GetInt("BGM") == 0)
+        {
+            //theCamera.GetComponent<AudioListener>().enabled = false;
+            //Camera.main.GetComponent<AudioListener>().enabled = false;
+            //theCamera.audio.Pause();
+            //AudioListener.pause = true;
+            if (Application.platform == RuntimePlatform.Android)
+            {
+                AudioListener.volume = 0;
+                audio.Stop();
+            }
+        }
+        
+        else if(PlayerPrefs.GetInt("BGM") == 1)
+        {
+            //theCamera.GetComponent<AudioListener>().enabled = true;
+            //Camera.main.GetComponent<AudioListener>().enabled = true;
+            //theCamera.audio.Play();
+            //AudioListener.pause = false;
+            if (Application.platform == RuntimePlatform.Android)
+            {
+                AudioListener.volume = 100;
+                audio.Play();
+            }
+        }
+        
 	}
 }

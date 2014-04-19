@@ -49,7 +49,15 @@ public class PauseMenuScript : MonoBehaviour {
                 
                 if (optionsButton.HitTest(touch.position) && touch.phase == TouchPhase.Began)
                 {
-                    
+                    homeButton.enabled = false;
+                    optionsButton.enabled = false;
+                    restartButton.enabled = false;
+                    resumeButton.enabled = false;
+                    background.enabled = false;
+                    pauseText.enabled = false;
+                    Time.timeScale = 1;
+                    //load the options menu
+                    Application.LoadLevel(20);
                 }
                 
                 if (restartButton.HitTest(touch.position) && touch.phase == TouchPhase.Began)
