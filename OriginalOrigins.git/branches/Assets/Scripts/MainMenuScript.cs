@@ -19,6 +19,13 @@ public class MainMenuScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+        PlayerPrefs.SetInt("BGM", 1);
+        PlayerPrefs.SetInt("SFX", 1);
+
+        //print(PlayerPrefs.GetInt("BGM"));
+        //print(PlayerPrefs.GetInt("SFX"));
+        
+
         if(PlayerPrefs.GetInt("LastLevel") != 0)
         {
             return;

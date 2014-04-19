@@ -6718,6 +6718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jump_sound: {fileID: 0}
   lose_sound: {fileID: 8300000, guid: eb26054f989608b49b864bb19fd1b191, type: 3}
+  theCamera: {fileID: 1647808947}
 --- !u!4 &1314247169
 Transform:
   m_ObjectHideFlags: 0
@@ -10721,6 +10722,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: c12585f1267e4d2488809825c6d91af5, type: 2}
+      propertyPath: theCamera
+      value: 
+      objectReference: {fileID: 1647808947}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c12585f1267e4d2488809825c6d91af5, type: 2}
   m_RootGameObject: {fileID: 1314247167}
