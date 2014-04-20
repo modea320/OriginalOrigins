@@ -24,6 +24,7 @@ public class KillScript : MonoBehaviour {
         //audio.PlayOneShot(lose_sound, 1.0f);//sound effect
         SoundManagerScript.Instance.MakeLoseSound();
         Application.LoadLevel(Application.loadedLevel);
+        Handheld.Vibrate();
         
     }
 
