@@ -7377,6 +7377,10 @@ Prefab:
       propertyPath: leftButton
       value: 
       objectReference: {fileID: 534429085}
+    - target: {fileID: 2000000, guid: bb0264dc7455950449e1c58770916819, type: 2}
+      propertyPath: orthographic size
+      value: 5.84286833
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb0264dc7455950449e1c58770916819, type: 2}
   m_RootGameObject: {fileID: 519185248}
@@ -8252,7 +8256,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.84286833
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

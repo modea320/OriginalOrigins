@@ -1492,9 +1492,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-
   orthographic size: 7.00129032
-
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1608,6 +1606,10 @@ Prefab:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 73cd2d21f3c4bcc4d84e35d565875e92, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 73cd2d21f3c4bcc4d84e35d565875e92, type: 2}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
@@ -4703,7 +4705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb471d8b847a2f408965e832464ea15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: Level5
+  level: Meet Ahh Cut Scene
 --- !u!61 &723863656
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5053,7 +5055,7 @@ GameObject:
   - 4: {fileID: 786993726}
   - 61: {fileID: 786993727}
   m_Layer: 0
-  m_Name: LeftBounds
+  m_Name: Left Bounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6050,12 +6052,10 @@ Prefab:
     - target: {fileID: 100002, guid: bb0264dc7455950449e1c58770916819, type: 2}
       propertyPath: m_Layer
       value: 8
-
       objectReference: {fileID: 0}
     - target: {fileID: 2000000, guid: bb0264dc7455950449e1c58770916819, type: 2}
       propertyPath: orthographic size
       value: 7.00129032
-
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb0264dc7455950449e1c58770916819, type: 2}
@@ -7103,11 +7103,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: level
-      value: Level5
+      value: Meet Ahh Cut Scene
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: m_LocalScale.x
       value: 1.06250012
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
@@ -7472,7 +7476,7 @@ BoxCollider2D:
     type: 2}
   m_PrefabInternal: {fileID: 169735180}
   m_GameObject: {fileID: 1205570491}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Size: {x: 3.19000006, y: 3.5}
@@ -11628,6 +11632,10 @@ Prefab:
     - target: {fileID: 6100000, guid: a234873c4eb791e49b499c6940963d0e, type: 2}
       propertyPath: m_Size.y
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a234873c4eb791e49b499c6940963d0e, type: 2}
+      propertyPath: m_Name
+      value: Left Bounds
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a234873c4eb791e49b499c6940963d0e, type: 2}
