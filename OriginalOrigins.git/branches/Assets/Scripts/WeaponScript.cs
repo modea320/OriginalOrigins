@@ -7,7 +7,9 @@ public class WeaponScript : MonoBehaviour
     
     /// Projectile prefab for shooting    
     public Transform shotPrefab;
+    public Transform leftShotPrefab;
     public GUITexture shotButton;
+    
     
 
     
@@ -43,20 +45,46 @@ public class WeaponScript : MonoBehaviour
                 {
                     shootCooldown = shootingRate;
 
-                    // Create a new shot
-                    var shotTransform = Instantiate(shotPrefab) as Transform;
+                    if(PlayerPrefs.GetInt("FacingRight") == 0)
+                    {
+                        // Create a new shot
+                        var shotTransform = Instantiate(leftShotPrefab) as Transform;
 
-                    // Assign position
-                    //shotTransform.position = transform.position;
-                    if(PlayerPrefs.GetInt("FacingRight") == 1)
-                    {
-                        shotTransform.position = new Vector3(transform.position.x + 1, transform.position.y + 1, transform.position.z);
+                        // Assign position
+                        //shotTransform.position = transform.position;
+                        if (PlayerPrefs.GetInt("FacingRight") == 1)
+                        {
+
+                            shotTransform.position = new Vector3(transform.position.x + 1, transform.position.y + 1, transform.position.z);
+
+                        }
+                        else if (PlayerPrefs.GetInt("FacingRight") == 0)
+                        {
+                            shotTransform.position = new Vector3(transform.position.x - 1, transform.position.y + 1, transform.position.z);
+                            //shotTransform.Rotate(Vector3.up, Mathf.PI);
+                        }
                     }
-                    else if (PlayerPrefs.GetInt("FacingRight") == 0)
+
+                    else
                     {
-                        shotTransform.position = new Vector3(transform.position.x - 1, transform.position.y + 1, transform.position.z);
-                        //shotTransform.Rotate(Vector3.up, Mathf.PI);
+                        // Create a new shot
+                        var shotTransform = Instantiate(shotPrefab) as Transform;
+
+                        // Assign position
+                        //shotTransform.position = transform.position;
+                        if (PlayerPrefs.GetInt("FacingRight") == 1)
+                        {
+
+                            shotTransform.position = new Vector3(transform.position.x + 1, transform.position.y + 1, transform.position.z);
+
+                        }
+                        else if (PlayerPrefs.GetInt("FacingRight") == 0)
+                        {
+                            shotTransform.position = new Vector3(transform.position.x - 1, transform.position.y + 1, transform.position.z);
+                            //shotTransform.Rotate(Vector3.up, Mathf.PI);
+                        }
                     }
+                    
                     
 
                     /*

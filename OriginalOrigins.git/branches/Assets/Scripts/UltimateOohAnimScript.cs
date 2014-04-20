@@ -6,6 +6,7 @@ public class UltimateOohAnimScript : MonoBehaviour {
     private Animator animator;
     public GUITexture rightButton;
     public GUITexture leftButton;
+    public GUITexture attackButton;
 
 	// Use this for initialization
 	void Start () {
@@ -27,6 +28,15 @@ public class UltimateOohAnimScript : MonoBehaviour {
             else if (leftButton.HitTest(touch.position) && touch.phase != TouchPhase.Ended)
             {
                 animator.SetInteger("Direction", 1);
+            }
+
+            if(attackButton.HitTest(touch.position) && touch.phase != TouchPhase.Ended)
+            {
+                animator.SetFloat("Attacking", 1);
+            }
+            else
+            {
+                animator.SetFloat("Attacking", 0);
             }
         }
 	}
