@@ -510,11 +510,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 271.717285
+      value: 277.883881
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -17.4599075
+      value: 4.78770018
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -546,7 +546,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
+      propertyPath: m_Size.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d81ed29d1a4372640872776ee477fac6, type: 2}
@@ -921,7 +925,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &319583892
 Transform:
   m_ObjectHideFlags: 0
@@ -2346,7 +2350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &694158379
 Transform:
   m_ObjectHideFlags: 0
@@ -2354,7 +2358,7 @@ Transform:
   m_PrefabInternal: {fileID: 149618589}
   m_GameObject: {fileID: 694158378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 271.717285, y: -17.4599075, z: 0}
+  m_LocalPosition: {x: 277.883881, y: 4.78770018, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 488012204}
@@ -2381,7 +2385,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Size: {x: 5, y: 40}
+  m_Size: {x: 5, y: 1}
   m_Center: {x: 0, y: 0}
 --- !u!114 &694158382
 MonoBehaviour:
@@ -5900,6 +5904,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6800000, guid: 27da14ef45b3e234b960d01796297a7d, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 27da14ef45b3e234b960d01796297a7d, type: 2}
   m_RootGameObject: {fileID: 2046341162}
@@ -6675,7 +6683,7 @@ EdgeCollider2D:
   m_GameObject: {fileID: 2046341162}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Points:
   - {x: -5.20099545, y: .409763992}
   - {x: .250792593, y: .43116802}
@@ -6870,6 +6878,10 @@ Prefab:
     - target: {fileID: 100000, guid: 93353ce5e608b3e4a9bcb71148d54a5a, type: 2}
       propertyPath: m_Name
       value: Mosquito Renderer
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 93353ce5e608b3e4a9bcb71148d54a5a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 93353ce5e608b3e4a9bcb71148d54a5a, type: 2}
