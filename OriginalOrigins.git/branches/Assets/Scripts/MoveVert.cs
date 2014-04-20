@@ -56,7 +56,7 @@ public class MoveVert : MonoBehaviour
     public Texture2D button1;
     public GameObject theObject;
     public int direction;
-    public int speed;
+    public float speed;
     public int divisor;
 
     // Use this for initialization

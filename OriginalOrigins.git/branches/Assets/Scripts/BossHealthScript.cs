@@ -33,7 +33,7 @@ public class BossHealthScript : MonoBehaviour {
         */
 
         ShotScript shot = coll.gameObject.GetComponent<ShotScript>();
-        if(shot != null)
+        if(shot != null && coll.gameObject.tag == "PShot")
         {
             PlayerPrefs.SetInt("BossHealth", PlayerPrefs.GetInt("BossHealth") - shot.damage);
             Destroy(shot.gameObject);

@@ -10,14 +10,18 @@ public class MoveScript : MonoBehaviour {
     private Vector2 movement;
 	// Use this for initialization
 	void Start () {
-	
+        
+        
+            
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
         movement = new Vector2(
             speed.x * direction.x,
             speed.y * direction.y);
+        
 	
 	}
 
