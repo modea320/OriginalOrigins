@@ -77,8 +77,8 @@ PlayerSettings:
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: a2ed0c0dfbf742249a3400932f21615e
-  iPhoneBundleVersion: 1.11
-  AndroidBundleVersionCode: 5
+  iPhoneBundleVersion: 1.2
+  AndroidBundleVersionCode: 6
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -106,7 +106,7 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-  AndroidKeystoreName: C:/Users/Owner/Documents/OriginalOrigins/OriginalOrigins.git/branches/Origin.keystore
+  AndroidKeystoreName: C:/Users/Damien/Documents/GitHub/OriginalOrigins/OriginalOrigins.git/branches/Origin.keystore
   AndroidKeyaliasName: original origins
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:

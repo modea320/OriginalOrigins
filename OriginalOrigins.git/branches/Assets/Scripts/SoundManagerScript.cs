@@ -7,7 +7,7 @@ public class SoundManagerScript : MonoBehaviour {
 
     public AudioClip jump_sound;
     public AudioClip lose_sound;
-    public AudioClip screech_sound;
+   // public AudioClip screech_sound;
     public Camera theCamera;
 
     void Awake()
@@ -31,7 +31,8 @@ public class SoundManagerScript : MonoBehaviour {
 
     public void MakeScreechSound()
     {
-        MakeSound(screech_sound);
+        
+        //MakeSound(screech_sound);
     }
 
     public void MakeSound(AudioClip theClip)

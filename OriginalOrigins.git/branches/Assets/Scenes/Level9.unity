@@ -722,7 +722,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &166468643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1021,7 +1021,6 @@ Transform:
   - {fileID: 216431553}
   - {fileID: 1081292000}
   - {fileID: 893050950}
-  - {fileID: 1620243352}
   - {fileID: 959942420}
   - {fileID: 1390245473}
   - {fileID: 1416179773}
@@ -3143,7 +3142,6 @@ GUITexture:
   m_RightBorder: 0
   m_TopBorder: 0
   m_BottomBorder: 0
-
 --- !u!1 &1730480331
 GameObject:
   m_ObjectHideFlags: 0
@@ -3151,7 +3149,6 @@ GameObject:
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-
   - 4: {fileID: 1730480333}
   - 82: {fileID: 1730480332}
   m_Layer: 0
@@ -3161,7 +3158,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-
 --- !u!82 &1730480332
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3231,7 +3227,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-
 --- !u!1 &1755631217
 GameObject:
   m_ObjectHideFlags: 0
@@ -3948,7 +3943,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jump_sound: {fileID: 0}
   lose_sound: {fileID: 8300000, guid: eb26054f989608b49b864bb19fd1b191, type: 3}
-  screech_sound: {fileID: 0}
   theCamera: {fileID: 905947854}
 --- !u!4 &2088754260
 Transform:
@@ -4114,7 +4108,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}

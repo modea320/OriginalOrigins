@@ -879,7 +879,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jump_sound: {fileID: 8300000, guid: 293b78f52d8381940868e676bab66e8e, type: 3}
   lose_sound: {fileID: 8300000, guid: eb26054f989608b49b864bb19fd1b191, type: 3}
-  screech_sound: {fileID: 0}
   theCamera: {fileID: 940091322}
 --- !u!4 &202891293
 Transform:
@@ -2520,7 +2519,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d545dec79e37ced45b87e57d5f0764e5, type: 2}
@@ -2777,7 +2776,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &685394883
 MonoBehaviour:
   m_ObjectHideFlags: 0
