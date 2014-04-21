@@ -22,6 +22,7 @@ public class NextLevelScript : MonoBehaviour
     // loads the level indicated by the public string level
     void OnTriggerEnter2D(Collider2D otherCollider)
     {
+        PlayerPrefs.SetInt("IsSafe", 0);
         Application.LoadLevel(level);
     }
 

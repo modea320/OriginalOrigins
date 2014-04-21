@@ -15,6 +15,7 @@ public class PauseMenuScript : MonoBehaviour {
 	void Start () {
 
         //homeButton.pixelInset = (Screen.width / 10) * 2;
+        PlayerPrefs.SetInt("IsSafe", 0);
 
 	}
 	

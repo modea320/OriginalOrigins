@@ -77,7 +77,7 @@ public class MoveVert : MonoBehaviour
                 //guiTexture.texture = buton1;
                 {
                     theObject.transform.Translate(Vector2.up * speed * direction / divisor);
-                    SoundManagerScript.Instance.MakeJumpSound();
+                    //SoundManagerScript.Instance.MakeJumpSound();
                 }
             }
 
