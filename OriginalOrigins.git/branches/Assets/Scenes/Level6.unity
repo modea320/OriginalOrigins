@@ -4541,6 +4541,10 @@ Prefab:
       propertyPath: orthographic size
       value: 7.31134462
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: bb0264dc7455950449e1c58770916819, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb0264dc7455950449e1c58770916819, type: 2}
   m_RootGameObject: {fileID: 1977937498}
@@ -6196,7 +6200,7 @@ GameObject:
   - 50: {fileID: 1977937500}
   m_Layer: 0
   m_Name: PlayerV3
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

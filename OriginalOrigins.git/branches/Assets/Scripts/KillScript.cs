@@ -21,10 +21,14 @@ public class KillScript : MonoBehaviour {
     // essentailly "respawning" the character
     void OnTriggerEnter2D(Collider2D otherCollider)
     {
-        //audio.PlayOneShot(lose_sound, 1.0f);//sound effect
-        SoundManagerScript.Instance.MakeLoseSound();
-        Application.LoadLevel(Application.loadedLevel);
-        Handheld.Vibrate();
+        if (otherCollider.tag == "Player")
+        {
+            //audio.PlayOneShot(lose_sound, 1.0f);//sound effect
+            SoundManagerScript.Instance.MakeLoseSound();
+            Application.LoadLevel(Application.loadedLevel);
+            Handheld.Vibrate();
+        }
+        
         
     }
 

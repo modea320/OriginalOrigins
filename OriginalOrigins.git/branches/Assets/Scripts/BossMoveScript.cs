@@ -13,9 +13,13 @@ public class BossMoveScript : MonoBehaviour {
     public float widthScale = 1.0F;
     public float heightScale = 1.0F;
 
+    //private int xSeed;
+    //private int ySeed;
+
 	// Use this for initialization
 	void Start () {
-        
+        //xSeed = Random.Range(1, 50);
+        //ySeed = Random.Range(1, 20);
 	}
 	
 	// Update is called once per frame
@@ -25,6 +29,9 @@ public class BossMoveScript : MonoBehaviour {
         
         float newX = widthScale * Mathf.PerlinNoise(Time.time * xScale, 0.0F);
         float newY = heightScale * Mathf.PerlinNoise(0.0F, Time.time * yScale);
+
+        //float newX = widthScale * Mathf.PerlinNoise(xSeed * xScale, 0.0F);
+        //float newY = heightScale * Mathf.PerlinNoise(0.0F, ySeed * yScale);
 
         Vector3 newPos = theObject.transform.position;
         newPos.x = newX;

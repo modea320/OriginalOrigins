@@ -1054,6 +1054,10 @@ Prefab:
       propertyPath: orthographic size
       value: 7.1765976
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: bb0264dc7455950449e1c58770916819, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb0264dc7455950449e1c58770916819, type: 2}
   m_RootGameObject: {fileID: 1326070133}
@@ -5805,7 +5809,7 @@ GameObject:
   - 50: {fileID: 1326070134}
   m_Layer: 0
   m_Name: PlayerV3
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7399,6 +7403,7 @@ Transform:
   m_LocalPosition: {x: 6.25210619, y: -2.41294336, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1872064003}
   - {fileID: 1372871458}
   - {fileID: 1429873994}
   - {fileID: 2114100129}
@@ -7417,6 +7422,7 @@ Transform:
   - {fileID: 1266063557}
   - {fileID: 466023410}
   - {fileID: 982967139}
+  - {fileID: 1249416880}
   - {fileID: 1665140663}
   - {fileID: 1137401824}
   - {fileID: 2061475895}
@@ -7431,8 +7437,6 @@ Transform:
   - {fileID: 1713667619}
   - {fileID: 792437384}
   - {fileID: 1694135513}
-  - {fileID: 1872064003}
-  - {fileID: 1249416880}
   m_Father: {fileID: 1963033008}
 --- !u!1001 &1691121746
 Prefab:
