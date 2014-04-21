@@ -23,6 +23,10 @@ public class KillScript : MonoBehaviour {
     {
         if (otherCollider.tag == "Player")
         {
+            if(PlayerPrefs.GetInt("IsSafe") == 1)
+            {
+                return;
+            }
             //audio.PlayOneShot(lose_sound, 1.0f);//sound effect
             SoundManagerScript.Instance.MakeLoseSound();
             Application.LoadLevel(Application.loadedLevel);
