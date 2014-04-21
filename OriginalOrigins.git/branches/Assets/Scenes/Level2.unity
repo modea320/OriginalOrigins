@@ -877,8 +877,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9626b7bbf4a6cac4a99223ce569e7723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump_sound: {fileID: 0}
+  jump_sound: {fileID: 8300000, guid: 293b78f52d8381940868e676bab66e8e, type: 3}
   lose_sound: {fileID: 8300000, guid: eb26054f989608b49b864bb19fd1b191, type: 3}
+  screech_sound: {fileID: 0}
   theCamera: {fileID: 940091322}
 --- !u!4 &202891293
 Transform:
@@ -9290,6 +9291,10 @@ Prefab:
       propertyPath: theCamera
       value: 
       objectReference: {fileID: 940091322}
+    - target: {fileID: 11400000, guid: c12585f1267e4d2488809825c6d91af5, type: 2}
+      propertyPath: jump_sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 293b78f52d8381940868e676bab66e8e, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c12585f1267e4d2488809825c6d91af5, type: 2}
   m_RootGameObject: {fileID: 202891291}

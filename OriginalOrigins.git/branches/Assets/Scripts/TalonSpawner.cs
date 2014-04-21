@@ -15,14 +15,14 @@ public class TalonSpawner : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        count = 0;
+        count = attackFrequency;
 	}
 	
 	// Update is called once per frame
 	void Update () {
         count++;
 
-        if (count == attackFrequency)
+        if (count >= attackFrequency)
         {
             // spawn the bird
             var talonTransform = Instantiate(talonPrefab) as Transform;
@@ -33,12 +33,14 @@ public class TalonSpawner : MonoBehaviour {
             // Spawn behind the character
             if(placement == 0)
             {
+                SoundManagerScript.Instance.MakeScreechSound();
                 talonTransform.position = new Vector3(thePlayer.transform.position.x - distBehind, thePlayer.transform.position.y +
                     distAbove, transform.position.z);
             }
             // spawn in front of the character
             else
             {
+                SoundManagerScript.Instance.MakeScreechSound();
                 talonTransform.position = new Vector3(thePlayer.transform.position.x - distBehind/2 , thePlayer.transform.position.y +
                     distAbove, transform.position.z);
             }
