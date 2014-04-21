@@ -168,7 +168,7 @@ Prefab:
     - target: {fileID: 21200000, guid: eb61e634d62169d429957f20cea193ea, type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a17cb5de9f87ed845a675ccf526035a2,
+      objectReference: {fileID: 21300000, guid: 0286a6470b751a94a96558df883059f4,
         type: 3}
     - target: {fileID: 11400002, guid: eb61e634d62169d429957f20cea193ea, type: 2}
       propertyPath: speed.x
@@ -1197,7 +1197,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: 300eb30c4eecfee4c8c3fbc0cd0c0e41, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9de49020f4727c441bc28ccdb7046227, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &528115351
 Transform:
@@ -2399,7 +2399,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: a17cb5de9f87ed845a675ccf526035a2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0286a6470b751a94a96558df883059f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1226304068
 Transform:
@@ -2692,7 +2692,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_SortingLayerID: 0
-  m_Sprite: {fileID: 21300000, guid: a17cb5de9f87ed845a675ccf526035a2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bb0110bbcf1830342a5f64a9de30e4f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1453338305
 Transform:
@@ -3261,7 +3261,7 @@ Prefab:
     - target: {fileID: 21200000, guid: eb61e634d62169d429957f20cea193ea, type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 300eb30c4eecfee4c8c3fbc0cd0c0e41,
+      objectReference: {fileID: 21300000, guid: 9de49020f4727c441bc28ccdb7046227,
         type: 3}
     - target: {fileID: 400000, guid: eb61e634d62169d429957f20cea193ea, type: 2}
       propertyPath: m_LocalScale.x
@@ -4008,7 +4008,7 @@ Prefab:
     - target: {fileID: 21200000, guid: eb61e634d62169d429957f20cea193ea, type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a17cb5de9f87ed845a675ccf526035a2,
+      objectReference: {fileID: 21300000, guid: bb0110bbcf1830342a5f64a9de30e4f7,
         type: 3}
     - target: {fileID: 11400002, guid: eb61e634d62169d429957f20cea193ea, type: 2}
       propertyPath: speed.x
